@@ -9,20 +9,18 @@ const generateColor = () => {
 
 
 export const MessageMeContainer = styled.div`
-  width: 50%;
+  width: 100%;
   min-height: 75px;
   background-color: #262D31;
   border-radius: 20px;
-  position: absolute;
-  left: 10px;
-  top: 12px;
+  grid-column: 2/3;
 
   .main {
     display: flex;
     flex-direction: column;
     position: relative;
     padding: 6px;
-    
+
     .name-section {
       color: ${generateColor()};
       width: 100%;
@@ -33,13 +31,15 @@ export const MessageMeContainer = styled.div`
     .message-content {
       color: #FFF;
       margin-left: 6px;
+      margin-bottom: 15px;
     }
 
     .message-info {
       color: #FFF;
+      font-size: 12px;
       position: absolute;
       right: 9px;
-      bottom: 0px;
+      bottom: 7px;
     }
   }
 

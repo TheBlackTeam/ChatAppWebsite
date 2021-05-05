@@ -67,12 +67,12 @@ export const Container = styled.div`
 
     .message-container {
       width: 100%;
-      height: 100px;
-      max-height: 100%;
+      height: auto;
       padding: 12px;
 
       .message {
-        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
       }
     }
 

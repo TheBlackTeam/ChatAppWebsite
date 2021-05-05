@@ -9,7 +9,7 @@ const MessageMe = () => {
                     <p>Name</p>
                 </div>
                 <div className="message-content">
-                    <p>Message Message Message Message</p>
+                    <p>Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message Message </p>
                 </div>
                 <div className="message-info">
                     <div className="read-receipts">
